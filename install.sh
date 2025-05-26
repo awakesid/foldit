@@ -61,10 +61,10 @@ elif [[ "$OS" == "Darwin" ]]; then
 
     # Download and install the tool
     echo "Downloading the tool..."
-    wget https://raw.githubusercontent.com/awakesid/foldit/main/Packages/foldit.tar.gz
+    wget https://raw.githubusercontent.com/awakesid/foldit/main/Packages/foldit_mac.tar.gz
     echo "Extracting the tool..."
-    tar -xzf foldit.tar.gz -C /usr/local/bin
-    rm foldit.tar.gz
+    tar -xzf foldit_mac.tar.gz -C /usr/local/bin
+    rm foldit_mac.tar.gz
 
 else
     echo "Unsupported OS."
